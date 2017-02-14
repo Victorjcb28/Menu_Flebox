@@ -120,5 +120,28 @@ main article p{
 @media screen and (max-width: 700px)  {
 	header .menu{
 		flex-direction:column;
-}
+	}
+
+	header .menu .logo{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+		padding:1em;
+
+	}
+
+	header .menu .logo .btn-menu{
+		display: inline-block;
+	}
+
+	header .menu .enlaces {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap; /*Sino caben los enlaces los pone debajo*/
+		justify-content: space-around;
+	}
+
+
 }
